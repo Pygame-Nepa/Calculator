@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Online Calculator by Arpan</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="src/css/styles.css">
+        <link rel="icon" href="src/img/favicon.ico">
+    </head>
+
+    <body>
+      <p><h1>Made By: Arpan Poudel.</h1></p>
+        <div class="calculator">
+            <input type="text" id="display" disabled>
+            <div class="buttons">
+                <!-- First line -->
+                <button class="clear" colspan="2" onclick="clearDisplay()">C</button>
+                <button class="delete" colspan="2" onclick="deleteLast()">D</button>
+
+                
+                <button onclick="appendNumber(7)">7</button>
+                <button onclick="appendNumber(8)">8</button>
+                <button onclick="appendNumber(9)">9</button>
+                <button class="operator" onclick="appendOperator('+')">+</button>
+
+                <!-- Third line -->
+                <button onclick="appendNumber(4)">4</button>
+                <button onclick="appendNumber(5)">5</button>
+                <button onclick="appendNumber(6)">6</button>
+                <button class="operator" onclick="appendOperator('-')">-</button>
+
+                <!-- Fourth line -->
+                <button onclick="appendNumber(1)">1</button>
+                <button onclick="appendNumber(2)">2</button>
+                <button onclick="appendNumber(3)">3</button>
+                <button class="operator" onclick="appendOperator('×')">×</button>
+
+                <!-- Fifth line -->
+                <button class="zero" colspan="2" onclick="appendNumber(0)">0</button>
+                <button onclick="appendDecimal()">.</button>
+                <button class="operator" onclick="appendOperator('÷')">÷</button>
+
+                <!-- Sixth line -->
+                <button class="equal" colspan="4" onclick="calculate()">=</button>
+            </div>
+        </div>
+
+        <script src="src/js/script.js"></script>
+    </body>
+</html>
