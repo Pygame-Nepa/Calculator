@@ -4,13 +4,29 @@ A clean, responsive, and user-friendly online calculator built using web technol
 
 You can try live by (https://onlinecalculatorbyarpan.netlify.app)
 
+
+
 # Built With
 
-HTML5:
-CSS3: 
-JavaScript : 
 
-#features
+
+HTML5:
+
+
+CSS3:
+
+
+JavaScript :
+
+
+
+# Features:
+
+
 Clear ui
+
+
 fast calculating
+
+
 fast response
