@@ -9,3 +9,8 @@ You can try live by (https://onlinecalculatorbyarpan.netlify.app)
 HTML5:
 CSS3: 
 JavaScript : 
+
+#features
+Clear ui
+fast calculating
+fast response
